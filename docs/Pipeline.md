@@ -6,4 +6,4 @@ Developers commit and push code to the code repository on github, which triggers
 
 ## CirlceCi
 
-Circleci reads the config.yml file which contains the jobs necessary for automating installing dependencies, building and deploying the web app.
+Circleci reaches into the config.yml in the .CircleCi folder and starts executing the jobs that exists in the file which installs backend and front end dependencies then starts building the frontend and backend then CircleCi starts deploying the Application to AWS and setting production environment variables which were stored in CircleCi Application’s configuration thus automating installing dependencies, building and deploying the web app.
